@@ -53,6 +53,7 @@ class Warehouse:
 		max = 0
 		for p in self.items:
 			if items.price > max: 
+				return True
 		pass	
 
 
